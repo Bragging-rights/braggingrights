@@ -10,6 +10,7 @@ namespace braggingrights.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(braggingrights.Models.ApplicationDbContext context)
