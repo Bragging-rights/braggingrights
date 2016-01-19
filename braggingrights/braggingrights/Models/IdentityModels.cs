@@ -29,5 +29,7 @@ namespace braggingrights.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<braggingrights.Models.Mobster> Mobsters { get; set; }
     }
 }
